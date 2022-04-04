@@ -9,6 +9,7 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 300px;
+    width: 100%;
 }
 
 .footer{
@@ -30,4 +31,9 @@
     font-size: 80%;
     margin: 0px;
     color: black;
+}
+
+.container-left{
+
+    margin: 0px;
 }
