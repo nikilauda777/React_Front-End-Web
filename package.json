@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nikilauda777/React_Front-End-Web/issues"
   },
-  "homepage": "https://github.com/nikilauda777/React_Front-End-Web#readme"
+  "homepage": "https://github.com/nikilauda777/React_Front-End-Web#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
