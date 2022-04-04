@@ -3,4 +3,8 @@
 
 #Installing of Node.js and NPM
 
-npm install lite-server --save-dev 
+    npm install lite-server --save-dev
+
+#To start the server use command
+
+    npm run lite
