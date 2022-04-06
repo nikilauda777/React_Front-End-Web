@@ -19,3 +19,14 @@
 
     npm install font-awesome@4.7.0 --save
     npm install bootstrap-social@5.1.1 --save 
+
+#Installing and using the lessc Compiler
+
+         npm install -g less@2.7.2
+         lessc styles.less styles.css
+
+#Installing and using the node-sass module
+
+     npm install --save-dev node-sass@4.7.2
+     "scss": "node-sass -o css/ css/"
+     npm run scss
