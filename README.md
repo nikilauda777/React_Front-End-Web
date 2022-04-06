@@ -30,3 +30,25 @@
      npm install --save-dev node-sass@4.7.2
      "scss": "node-sass -o css/ css/"
      npm run scss
+
+#Watching for Changes and Parallelshell
+    npm install --save-dev onchange@3.3.0 parallelshell@3.0.2  
+
+
+#Cleaning up a Distribution Folder
+    npm install --save-dev rimraf@2.6.2 
+
+
+#Copying Fonts
+    npm -g install copyfiles@2.0.0
+
+
+#Compressing and Minifying Images
+    npm -g install imagemin-cli@3.0.0
+
+#Preparing the Distribution Folder
+    npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+
+
+#To build the distribution folder, you can type the following at the prompt:
+    npm run build
