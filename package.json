@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/nikilauda777/React_Front-End-Web#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",

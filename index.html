@@ -36,7 +36,7 @@
 
             <!--Login-->
             <span class="navbar-text">
-                <a data-toggle="modal" data-target="#loginModal">
+                <a id="loginButton">
                     <span class="fa fa-sign-in"></span>Login
                 </a></span>
             </div>
@@ -49,9 +49,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
-                        <button type="button" class="close" data-dismiss="modal">
+                        <a type="button" class="close" data-dismiss="modal">
                                 &times;
-                            </button>
+                            </a>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -95,7 +95,7 @@
             <!-- Assignment 3 -->
             <div class="col-12 col-sm-3 align-self-center">
                 <a class="btn btn-warning btn-block nav-link" role="button"
-                   data-toggle="modal" data-target="#reserveATable">
+                    id="reservationOfTable">
                     Reserve Table</a>
             </div>
         </div>
@@ -111,9 +111,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title">Reserve a Table</h4>
-                        <button type="button" class="close" data-dismiss="modal">
+                        <a type="button" class="close" data-dismiss="modal">
                             &times;
-                        </button>
+                        </a>
                     </div>
                     <div class="modal-body">
                         <form class="card-body">
@@ -419,6 +419,19 @@
      });
 
 </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#loginButton").click(function() {
+                $('#loginModal').modal({show: true});
+
+            });
+
+            $("#reservationOfTable").click(function() {
+                $('#reserveATable').modal({show: true});
+            });
+        });
+    </script>
 
 
 
