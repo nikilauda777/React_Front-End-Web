@@ -52,3 +52,17 @@
 
 #To build the distribution folder, you can type the following at the prompt:
     npm run build
+
+#Installing Grunt
+    npm install -g grunt-cli@1.2.0
+    npm install grunt@1.0.2 --save-dev
+
+#Compiling SCSS to CSS
+    npm install grunt-sass@3.1.0 --save-dev
+    npm install time-grunt@1.4.0 --save-dev
+    npm install jit-grunt@0.10.0 --save-dev
+
+#Watch and Serve Tasks
+
+    npm install grunt-contrib-watch@1.0.0 --save-dev
+    npm install grunt-browser-sync@2.2.0 --save-dev
