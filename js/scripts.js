@@ -1,5 +1,4 @@
-
-    $(document).ready(function () {
+$(document).ready(function () {
     $('#mycarousel').carousel({interval: 1000});
     $('#carouselButton').click(function () {
     if ($('#carouselButton').children('span').hasClass('fa-pause')) {
@@ -24,18 +23,3 @@
     $('#reserveATable').modal({show: true});
 });
 });
-
-<!--<script>-->
-<!--    $(document).ready(function (){-->
-<!--        $('[data-toogle="tooltip"]').tooltip();-->
-<!--    });-->
-
-<!--    $(document).ready(function () {-->
-<!--       $('#mycarousel').carousel({interval: 1000});-->
-<!--       $('#carousel-pause').click(function (){-->
-<!--           $('#mycarousel').carousel('pause');-->
-<!--       });-->
-<!--       $('#carousel-play').click(function () {-->
-<!--           $('#mycarousel').carousel('cycle');-->
-<!--       });-->
-<!--    });-->
